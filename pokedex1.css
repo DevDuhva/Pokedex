@@ -69,8 +69,8 @@ main {
 }
 .buttons{
 position: absolute;
-bottom:43%;
-left: 66%;
+bottom:45%;
+left: 65%;
 width: 1%;
 background-color: #161111;
 display: flex;
