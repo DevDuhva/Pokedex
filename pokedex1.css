@@ -44,16 +44,17 @@ main {
     font-size: clamp(8px , 5px);
 }
 .pokemon_name{
-    color: #e4dede;
+    color: #e7e0e0;
     text-transform: capitalize;
 
 }
 .form {
     position: absolute;
     background-color: rgb(5, 3, 3);
-    width: 107% ;
-    top: 150%;
+    width: 30% ;
+    top: 77%;
     border-radius: 20%;
+    left:37%;
 }
 .input_search {
     width: 100%;
@@ -63,17 +64,18 @@ main {
     border-radius: 5px;
     font-weight: 200px;
     color: rgb(22, 21, 21);
-    box-shadow:  -4px 2px 0px #eeeeee ;
+    box-shadow:  -4px 2px 0px #dfdbdb ;
    
 }
 .buttons{
 position: absolute;
-bottom:10%;
-left: 150%;
-width: 65%;
-background-color: #000000;
+bottom:43%;
+left: 66%;
+width: 1%;
+background-color: #161111;
 display: flex;
-gap: 45%;
+gap: 30px;
+
 }
 .button{
 width: 50px;
@@ -87,8 +89,14 @@ box-shadow: -2px 3px 0 #ffffff, 2px 3px 0  #fff;
 }
 .button:active {
     box-shadow:  inset -4px 4px 0 #ffffff;
-    
+
+}
+.pokemon_types{
+font-size:25px;
+position: absolute;
+left: 340px;
+bottom: 63%;
+
 
 
 }
-
